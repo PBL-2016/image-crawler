@@ -67,7 +67,7 @@ def read_magic(path):
 if __name__ == '__main__':
     param = sys.argv
     if len(param) != 2:
-        print('python craw save_path')
+        print('python3 craw-public.py save_path')
         sys.exit(-1)
 
     path = param[1]
